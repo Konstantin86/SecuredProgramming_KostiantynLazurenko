@@ -1,0 +1,17 @@
+-  request:
+      method: GET
+      url: /~raluca/cs261-f15/
+
+   response:
+      body: "<HTML><HEAD><TITLE></TITLE></HEAD></HTML>"
+
+
+-  request:
+      method: GET
+      url: /users/davydov-vyacheslav
+
+      
+   response:
+      headers:
+        content-type: application/json
+      body: "{name:'Kostiantyn Lazurenko'}"
